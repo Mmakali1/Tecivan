@@ -1,0 +1,54 @@
+<!-- 
+// Its a star wars story
+// a porttfolio website for Tecivan using images and some text from The 
+// Star Wars movie franchise. All images may be reimagines or shared
+// from the star wars animated series. We do not currently have enough
+// resources to fully redisign and reanimate Star Wars characters.  -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Tecivan</title>
+
+        <!-- meta info -->
+        <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <section class="vader">
+       <header class="mdc-toolbar">
+        <div class="mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-end ">
+       <div class="navigation-container">
+            <nav class="navigation">
+              <a class="mdc-navigation__link mdc-typography--text-uppercase" href="#">Home</a>
+              <a class="mdc-navigation__link mdc-typography--text-uppercase" href="#">About</a>
+              <a class="mdc-navigation__link mdc-typography--text-uppercase" href="#">Gallery</a>
+              <a class="mdc-navigation__link mdc-typography--text-uppercase" href="#">Contact</a>
+            </nav>
+          </div>
+    </section>
+        </div>
+       </header>
+    
+    <h2 class="mdc-typography--display4">Hello</h2>
+        <div align="center" class="mdc-layout__content">
+        <div class="mdc-typography--text-center">
+          <a href="#">
+            <button class="mdc button mdc-button--fab">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+        </div>
+        </div>
+   </section>
+     <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="Tell-us">
+      <label for="demo-input" class="mdc-textfield__label">Tell us how you feel!</label>
+    </div>
+    <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+  </body>
+    <script>mdc.autoInit()</script>
+</html>
